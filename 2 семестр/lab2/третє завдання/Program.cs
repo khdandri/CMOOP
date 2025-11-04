@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace lab.work._2._3
 {
+    [Serializable]
     public class printerPrinting
     {
         public string user { get; set; }
