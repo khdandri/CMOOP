@@ -1,0 +1,24 @@
+﻿<Window x:Class="lab.work._4._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab.work._4._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ButtonShow" Content="Button" Click="ButtonShow_Click" HorizontalAlignment="Left" Margin="32,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="63" Width="172">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.1"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ButtonHide" Content="Button" Click ="ButtonHide_Click" HorizontalAlignment="Left" Margin="34,197,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.306,-1.798" Height="59" Width="172"/>
+        <TextBlock x:Name="myTextBlock" HorizontalAlignment="Left" Margin="400,75,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="215" Width="260"/>
+
+    </Grid>
+</Window>

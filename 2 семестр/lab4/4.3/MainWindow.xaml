@@ -1,0 +1,25 @@
+﻿<Window x:Class="lab.work._4._3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab.work._4._3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ButtonHide" Content="Приховати" Click ="ButtonHide_Click" HorizontalAlignment="Left" Margin="25,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.778,0.068" Height="62" Width="174"/>
+        <Button x:Name="ButtonShow" Content="Показати" Click ="ButtonShow_Click" HorizontalAlignment="Left" Margin="25,104,0,0" VerticalAlignment="Top" Height="54" Width="174"/>
+        <Button x:Name="ButtonClean" Content="Очистити" Click ="ButtonClean_Click" HorizontalAlignment="Left" Margin="25,163,0,0" VerticalAlignment="Top" Height="54" Width="174"/>
+        <TextBox x:Name="myTextBox" Margin="400,104,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.5,0.5" Height="55">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.392"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+    </Grid>
+</Window>

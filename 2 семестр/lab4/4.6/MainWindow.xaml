@@ -1,0 +1,35 @@
+﻿<Window x:Class="lab.work._4._6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab.work._4._6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Column="0" Orientation="Horizontal" Margin="2.0">
+            <Button Content="Navy" Foreground="Navy" Background="White" Margin="2.0"/>
+            <Button Content="Blue" Foreground="Blue" Background="White" Margin="2.0"/>
+            <Button Content="Aqua" Foreground="Aqua" Background="White" Margin="2.0"/>
+            <Button Content="Teal" Foreground="Teal" Background="White" Margin="2.0"/>
+            <Button Content="Olive" Foreground="Olive" Background="White" Margin="2.0"/>
+            <Button Content="Green" Foreground="Green" Background="White" Margin="2.0"/>
+            <Button Content="Lime" Foreground="Lime" Background="White" Margin="2.0"/>
+            <Button Content="Yellow" Foreground="Yellow" Background="White" Margin="2.0"/>
+            <Button Content="Orange" Foreground="Orange" Background="White" Margin="2.0"/>
+            <Button Content="Red" Foreground="Red" Background="White" Margin="2.0"/>
+            <Button Content="Maroon" Foreground="Maroon" Background="White" Margin="2.0"/>
+            <Button Content="Fuchsia" Foreground="Fuchsia" Background="White" Margin="2.0"/>
+            <Button Content="Purple" Foreground="Purple" Background="White" Margin="2.0"/>
+            <Button Content="Black" Foreground="Black" Background="White" Margin="2.0"/>
+            <Button Content="Silver" Foreground="Silver" Background="White" Margin="2.0"/>
+            <Button Content="Gray" Foreground="Gray" Background="White" Margin="2.0"/>
+            <Button Content="White" Foreground="White" Background="Black" Margin="2.0"/>
+        </WrapPanel>
+    </Grid>
+</Window>
